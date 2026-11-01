@@ -31,7 +31,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 !.env.example
 
 # vercel
@@ -82,9 +81,9 @@ examples/
 agent-ctx/
 tools/
 *.pid
-.env.local
 mini-services/
 
 # test artifacts
 /test-results/
 /playwright-report/
+config.bat
